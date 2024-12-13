@@ -319,12 +319,11 @@ footer {
   text-decoration-skip-ink: none;
   width: 70%;
 }
-/* Base styles for text and buttons */
 
-/* Responsive styles using media queries */
+
 @media screen and (max-width: 1200px) {
   .div1text1 {
-    font-size: 36px; /* Reduce size for medium screens */
+    font-size: 36px;
     line-height: 54px;
   }
   .div1text2 {
@@ -352,11 +351,11 @@ footer {
   .button1,
   .button2,
   .button3 {
-    width: 80%; /* Adjust button width */
-    height: auto; /* Let height scale naturally */
+    width: 80%; 
+    height: auto;
     font-size: 14px;
-    padding: 10px; /* Add padding for smaller sizes */
-    border-radius: 15px; /* Adjust border radius */
+    padding: 10px; 
+    border-radius: 15px;
   }
 }
 
@@ -378,7 +377,7 @@ footer {
     width: 50%;
   }
   .div1text1 {
-    font-size: 28px; /* Further reduce size for small screens */
+    font-size: 28px;
     line-height: 42px;
   }
   .div1text2 {
@@ -406,9 +405,9 @@ footer {
   .button1,
   .button2,
   .button3 {
-    width: 50%; /* Full width for small screens */
-    font-size: 12px; /* Reduce font size */
-    padding: 8px; /* Compact padding */
+    width: 50%;
+    font-size: 12px; 
+    padding: 8px;
     border-radius: 10px;
   }
   .foot {
